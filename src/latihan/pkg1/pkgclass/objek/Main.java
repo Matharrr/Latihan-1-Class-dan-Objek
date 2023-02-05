@@ -35,9 +35,9 @@ public class Main {
         System.out.println(makanan.getJumlah());
         System.out.println(makanan.getKalori());
         System.out.println("==================");
-        orang.setNama("Ayam");
-        orang.setNim(2);
-        orang.setUmur(150);
+        makanan.setNama("Ayam");
+        makanan.setJumlah(2);
+        makanan.setKalori(150);
         System.out.println("Setters method :");
         System.out.println(makanan.getNama());
         System.out.println(makanan.getJumlah());
